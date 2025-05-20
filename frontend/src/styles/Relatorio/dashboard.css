@@ -1,0 +1,49 @@
+/* frotend/src/styles/dashboard.css */
+.cards-container {
+    margin-bottom: 20px;
+  }
+  
+  .status-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: transform 0.3s;
+  }
+  
+  .status-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: #333;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .card-content {
+    padding-top: 10px;
+  }
+  
+  .card-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .card-label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .card-value {
+    font-weight: 600;
+  }
+
+  .bg-red {
+    background-color: #ff0015c0;
+  }
+  
+  .text-success { color: #28a745; }
+  .text-warning { color: #eeff00; }
+  .text-primary { color: rgb(0, 123, 255); }

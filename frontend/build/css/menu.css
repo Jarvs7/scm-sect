@@ -1,0 +1,174 @@
+/* ==================== MENU ==================== */
+.menu-sidebar {
+  width: 250px; /* Largura do menu lateral */
+  height: 100vh; /* Altura total da tela */
+  background-color: transparent;
+  backdrop-filter: blur(10px); /* Cor de fundo do menu */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno do menu */
+  display: none; /* Usar flexbox para layout */
+  flex-direction: column; /* Organizar os itens em coluna */
+  position: fixed; /* Fixa o menu na tela */
+  left: -250px; /* Oculta o menu fora da tela inicialmente */
+  transition: left 0.3s ease-in-out; /* Transição suave ao mostrar o menu */
+  z-index: 1001; /* Garante que o menu fique acima do conteúdo */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+  max-width: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  
+}
+
+.menu-sidebar.visible {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.menu-sidebar::before {
+  content: ''; /* Cria um elemento vazio */
+  position: absolute; /* Posiciona o elemento de forma absoluta */
+  top: 0; /* Alinha ao topo */
+  right: -20px; /* Largura da área sensível ao hover */
+  width: 50px; /* Largura do elemento */
+  height: 100%; /* Altura total */
+  background-color: transparent; /* Fundo transparente */
+}
+
+.menu-sidebar:hover {
+  left: 0; /* Mostra o menu ao passar o mouse */
+}
+
+.user-profile {
+  text-align: center; /* Centraliza o texto do perfil */
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.user-profile .avatar {
+  margin-bottom: 10px; /* Espaçamento inferior do avatar */
+}
+
+.user-profile .user-info h5 {
+  margin: 0; /* Remove margens do título */
+  font-size: 1.2rem; /* Tamanho da fonte do nome do usuário */
+}
+
+.user-profile .user-info p {
+  margin: 0; /* Remove margens do parágrafo */
+  font-size: 0.9rem; /* Tamanho da fonte do texto do perfil */
+  color: #bdc3c7; /* Cor do texto do perfil */
+}
+
+.menu-items {
+  list-style: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove padding */
+  flex: 1; /* Ocupa o espaço restante */
+  margin-bottom: 20px; /* Adiciona espaçamento inferior */
+  padding-bottom: 20px; /* Adiciona padding inferior */
+}
+
+.menu-items li {
+  margin-bottom: 10px; /* Espaçamento inferior entre os itens do menu */
+}
+
+.menu-items li a {
+  color: #fff; /* Cor do texto do link */
+  text-decoration: none; /* Remove sublinhado do link */
+  display: flex; /* Usar flexbox para layout */
+  align-items: center; /* Alinha os itens verticalmente */
+  padding: 10px; /* Espaçamento interno do link */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+.menu-items li a:hover {
+  background-color: var(--hover-bg);
+  transform: scale(1.1); /* De 1.05 para 1.1 para melhor feedback */
+  transition: transform 0.2s ease-out, background-color 0.3s ease-in-out;
+}
+
+.menu-items li a svg {
+  margin-right: 10px; /* Espaçamento à direita do ícone */
+}
+
+.menu-items li.active a {
+  background-color: #34495e; /* Destaque para o link ativo */
+}
+
+.menu-footer {
+  margin-top: 0; /* Remove o espaçamento superior */
+  text-align: center; /* Centraliza o texto no rodapé */
+}
+
+.logout-button {
+  width: 80%; /* Largura do botão de logout */
+  padding: 10px; /* Espaçamento interno do botão */
+  background-color: #e74c3c; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave */
+  margin: 1rem;
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center; /*Centraliza o conteúdo do botão */
+  margin-top: 180px; /* Aumentando a margem superior */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.logout-button:hover {
+  transform: scale(1.05);
+  background-color: #9c2d21;
+  transition: transform 0.2s ease, background-color 0.3s ease-in-out;
+}
+
+
+.logout-button svg {
+  margin-right: 10px; /* Espaçamento à direita do ícone no botão */
+}
+@media (max-width: 768px) {
+  .menu-sidebar {
+    width: 200px;
+  }
+}
+
+/* ===== REGRAS ESPECÍFICAS PARA LUCIDE ICONS ===== */
+.lucide-icon {
+  transition: all 0.3s ease;
+  min-width: 20px; /* Evita "trepidação" no hover */
+}
+
+/* Ajuste de cor no hover (substitui o branco) */
+.menu-items li a:hover .lucide-icon,
+.menu-items li.active a .lucide-icon {
+  color: #3b82f6 !important; /* Azul do hover */
+}
+
+/* Espaçamento entre ícone e texto */
+.menu-items li a span {
+  margin-left: 10px;
+}
+
+/* Botão de logout - alinhamento vertical */
+.logout-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  color: white;
+}
+
+.user-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}

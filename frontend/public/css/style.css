@@ -1,0 +1,91 @@
+/* ==================== RESET E ESTRUTURA BASE ==================== */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+/* ==================== VIDEO DE FUNDO ==================== */
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+  pointer-events: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* ==================== LAYOUT PRINCIPAL ==================== */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  margin-left: 250px; /* Ajuste conforme seu menu */
+}
+
+/* Container de conteúdo rolável */
+.scrollable-content {
+  overflow-y: auto;
+  height: calc(100vh - 40px); /* Ajuste conforme header/footer */
+  padding-bottom: 20px;
+}
+
+.blurred-box {
+  background-color: rgba(85, 85, 85, 0.212); /* Fundo branco com transparência */
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para destacar a caixa */
+  padding: 20px; /* Espaçamento interno */
+  margin: 0 auto; /* Centraliza a caixa */
+  max-width: 1200px; /* Largura máxima */
+  border: 1px solid rgba(148, 148, 148, 0.5); /* Borda branca translúcida */
+}
+
+/* ==================== CORREÇÕES ESPECÍFICAS ==================== */
+/* Remove overflow conflicts */
+.container, .formulario, .status, .relatorio {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+/* Ajuste para tabelas e conteúdos longos */
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* ==================== MEDIA QUERIES ==================== */
+@media (max-width: 768px) {
+  .app-content {
+    margin-left: 0;
+    padding: 15px;
+  }
+  
+  .scrollable-content {
+    height: calc(100vh - 100px);
+  }
+}

@@ -1,0 +1,43 @@
+/* Campos de formulário com fundo transparente e texto branco */
+.form-control, 
+.form-select,
+textarea.form-control {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borda sutil */
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white !important; /* Texto branco */
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Fundo transparente */
+  backdrop-filter: blur(5px); /* Efeito de vidro fosco */
+  transition: all 0.3s ease;
+}
+
+/* Placeholder branco com opacidade */
+.form-control::placeholder,
+.form-select::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Foco nos campos */
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  border-color: rgba(86, 183, 254, 0.8);
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  outline: none;
+}
+
+/* Select - substituição da seta por uma versão branca */
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='white' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+}
+
+/* Labels brancos */
+.form-label {
+  color: white !important;
+  font-weight: 500;
+}
+

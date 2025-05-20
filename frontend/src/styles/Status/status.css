@@ -1,0 +1,235 @@
+:root {
+  --background-main: #f3f1ee;
+  --card-background: #d6cfc7;
+  --primary-dark: #06101a;
+  --text-main: #000000;
+  --status-available: #28a745;
+  --status-busy: #ffc107;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.motoristas-card {
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+/* ===== CABEÇALHO ===== */
+.card-header.custom-card-header3 {
+  background-color: var(--primary-dark);
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* ===== LISTA ===== */
+.list-group {
+  border: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow: hidden;
+}
+
+.list-group-item {
+  background-color: var(--card-background);
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.list-group-item:hover {
+  background-color: #ede9e4;
+}
+
+.list-group-item-warning {
+  background-color: #fff8e1;
+}
+
+/* ===== TEXTO ===== */
+.motorista-info h5 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-main);
+}
+
+.motorista-info p {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: #333333;
+}
+
+/* ===== BADGES ===== */
+.badge {
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+  font-weight: 500;
+  border-radius: 50rem;
+}
+
+.bg-success {
+  background-color: var(--status-available) !important;
+  color: #fff;
+}
+
+.bg-warning {
+  background-color: var(--status-busy) !important;
+  color: #000;
+}
+
+/* ===== LISTA VAZIA ===== */
+.text-muted.text-center {
+  color: #6c757d;
+  padding: 1.5rem;
+}
+
+.text-muted.text-center i {
+  font-size: 1.5rem;
+  color: #adb5bd;
+  display: block;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .list-group-item {
+    padding: 0.65rem 1rem;
+  }
+
+  .motorista-info h5 {
+    font-size: 0.95rem;
+  }
+
+  .motorista-info p {
+    font-size: 0.8rem;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+  }
+}
+
+
+.btn-voltar {
+  max-width: 240px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+/* Estilo para as observações */
+.viagem-observacoes {
+  background-color: #f8f9fa;
+  border-left: 3px solid #6c757d;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Melhor espaçamento entre itens */
+.viagem-info-item {
+  margin-bottom: 0.3rem;
+}
+
+/* Ícone das observações */
+.fa-sticky-note {
+  color: #6c757d;
+}
+/* Estilo para melhorar o alinhamento */
+.viagem-card {
+  position: relative;
+}
+
+.btn-finalizar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+
+/* ===== BOTÃO FINALIZAR VIAGEM (ESPECÍFICO) ===== */
+.btn-finalizar-viagem {
+  background-color: #2e7d32; /* Verde escuro */
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-left: 1.5rem; /* 👈 Afastamento maior */
+  white-space: nowrap; /* Evita quebra de texto */
+  align-self: center; /* Alinhamento vertical */
+}
+
+.btn-finalizar-viagem:hover {
+  background-color: #1b5e20; /* Verde mais escuro */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-finalizar-viagem:active {
+  transform: translateY(0);
+}
+
+.btn-finalizar-viagem:disabled {
+  background-color: #81c784; /* Verde claro */
+  opacity: 0.7;
+}
+
+/* Ícone e texto */
+.btn-finalizar-viagem i {
+  margin-right: 0.5rem;
+}
+
+/* Estilo para viagens urgentes */
+.viagem-card.urgente .btn-finalizar-viagem {
+  background-color: #d32f2f; /* Vermelho */
+}
+
+.viagem-card.urgente .btn-finalizar-viagem:hover {
+  background-color: #b71c1c;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .btn-finalizar-viagem {
+    padding: 0.4rem 1rem;
+    margin-left: 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* ===== BOTÃO VOLTAR (CENTRALIZADO E ESTILIZADO) ===== */
+.btn-voltar-centralizado {
+  display: inline-block;              /* Permite centralização horizontal */
+  margin: 0 auto;                     /* Centraliza horizontalmente */
+  font-size: 0.95rem;                 /* Tamanho de fonte um pouco menor */
+  padding: 0.5rem 1.25rem;            /* Espaçamento interno: cima/baixo, esquerda/direita */
+  font-weight: 500;                   /* Peso da fonte (negrito leve) */
+  border-radius: 6px;                 /* Cantos arredondados */
+  text-align: center;                 /* Centraliza o texto dentro do botão */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Sombra suave pra destacar o botão */
+  transition: all 0.3s ease;          /* Suaviza transições como hover */
+  color: #333;                        /* Cor do texto */
+  background-color: #ffffff;         /* Fundo branco */
+}
+
+/* Efeito ao passar o mouse (hover) */
+.btn-voltar-centralizado:hover {
+  background-color: #04e097;          /* Leve mudança no fundo */
+  transform: translateY(-1px);        /* Sobe levemente o botão */
+  text-decoration: none;              /* Remove o sublinhado */
+}
+
+/* Responsivo: no mobile, deixa um pouco menor */
+@media (max-width: 768px) {
+  .btn-voltar-centralizado {
+    font-size: 0.9rem;                /* Fonte um pouco menor */
+    padding: 0.45rem 1rem;            /* Reduz o padding */
+  }
+}

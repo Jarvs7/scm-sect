@@ -1,0 +1,31 @@
+/* Estilo para o modal inteiro */
+.modal-urgente {
+    --danger-color: #ef4444;
+  }
+  
+  /* Sobrescreve o conteúdo do modal */
+  .modal-urgente .modal-content {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    border: 1px solid var(--danger-color) !important;
+    color: white;
+  }
+  
+  /* Header personalizado */
+  .modal-urgente .modal-header {
+    border-bottom: 1px solid rgba(239, 68, 68, 0.3) !important;
+  }
+  
+  /* Botão de fechar */
+  .modal-urgente .btn-close {
+    filter: invert(1);
+  }
+  
+  /* Footer personalizado */
+  .modal-urgente .modal-footer {
+    border-top: 1px solid rgba(239, 68, 68, 0.3) !important;
+  }
+  
+  /* Textos em destaque */
+  .modal-urgente .text-danger {
+    color: var(--danger-color) !important;
+  }

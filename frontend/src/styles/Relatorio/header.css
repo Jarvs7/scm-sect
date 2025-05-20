@@ -1,0 +1,34 @@
+/* Novo CSS simplificado */
+.page-header {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center; /* Substitui o flexbox se for apenas texto */
+}
+
+.page-header {
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.header-title {
+  display: inline-flex; /* Mantém ícone e texto alinhados */
+  align-items: center; /* Alinhamento vertical */
+  gap: 10px; /* Espaço entre ícone e texto */
+}
+
+.header-icon {
+  color: #39c8db; /* Cor do ícone */
+  stroke-width: 1.5; /* Espessura da linha */
+}
+
+.header-icon {
+  width: 24px;       /* Tamanho do ícone */
+  height: 24px;
+  color: #39c8db;    /* Cor do ícone - ajuste conforme seu tema */
+  stroke-width: 1.5; /* Espessura da linha */
+  transition: all 0.3s ease;
+}
+
+.header-title:hover .header-icon {
+  color: #3b82f6;    /* Cor no hover */
+  transform: scale(1.1);
+}

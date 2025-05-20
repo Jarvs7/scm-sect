@@ -1,0 +1,49 @@
+/* relatorio.css */
+
+.relatorio-container {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 2rem auto;
+    max-width: 1200px;
+    overflow: auto;
+    max-height: calc(100vh - 200px);
+    color: black;
+}
+  
+  .relatorio-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .relatorio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .relatorio-table th,
+  .relatorio-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .relatorio-table th {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .custom-card-header {
+    background-color: rgba(0, 0, 255, 0.5); /* Substitua pelo código de cor desejado */
+    color: white; /* Ajuste a cor do texto, se necessário */
+  }
+  .custom-card-header1 {
+    background-color: rgba(0, 238, 255, 0.5); /* Substitua pelo código de cor desejado */
+    color: white; /* Ajuste a cor do texto, se necessário */
+  }
+  .custom-card-header2 {
+    background-color: rgba(0, 0, 255, 0.5); /* Substitua pelo código de cor desejado */
+    color: white; /* Ajuste a cor do texto, se necessário */
+  }
