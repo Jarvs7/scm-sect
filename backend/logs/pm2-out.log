@@ -6304,3 +6304,508 @@
 2025-05-20T14:01:42: [2025-05-20T17:01:42.887Z] GET /videos/abstract.mp4 | Origin: undefined
 2025-05-20T14:01:52: ❌ Usuário desconectado: ZMF3eDnRQ_UVk0iqAAAN
 2025-05-20T14:01:52: ❌ Usuário desconectado: n26fl5u1qTzZhUe9AAAP
+2025-05-20T14:12:00: [2025-05-20T17:12:00.081Z] GET /login | Origin: undefined
+2025-05-20T14:12:00: [2025-05-20T17:12:00.108Z] GET /css/style.css | Origin: undefined
+2025-05-20T14:12:00: [2025-05-20T17:12:00.109Z] GET /css/menu.css | Origin: undefined
+2025-05-20T14:12:00: [2025-05-20T17:12:00.110Z] GET /static/css/main.8f4f4c11.css | Origin: undefined
+2025-05-20T14:12:00: [2025-05-20T17:12:00.110Z] GET /static/js/main.ad88e9df.js | Origin: undefined
+2025-05-20T14:12:00: [2025-05-20T17:12:00.111Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:04: [2025-05-20T17:12:04.459Z] GET /assets/logosistema1.png | Origin: undefined
+2025-05-20T14:12:04: ⚡ Nova conexão: J7MJyOWw_7G6JcCwAAAR | IP: 192.168.0.92
+2025-05-20T14:12:04: ✅ Novo usuário conectado: J7MJyOWw_7G6JcCwAAAR
+2025-05-20T14:12:04: ⚡ Nova conexão: sMzGPinxCoOWSXztAAAT | IP: 192.168.0.92
+2025-05-20T14:12:04: ✅ Novo usuário conectado: sMzGPinxCoOWSXztAAAT
+2025-05-20T14:12:04: [Socket] Filtros recebidos: {}
+2025-05-20T14:12:05: [2025-05-20T17:12:05.020Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:05: [2025-05-20T17:12:05.023Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:05: [2025-05-20T17:12:05.808Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:05: [2025-05-20T17:12:05.815Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:17: [2025-05-20T17:12:17.373Z] POST /api/auth/login | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:17: Dados recebidos: admin.sistema admin@2025
+2025-05-20T14:12:17: [2025-05-20T17:12:17.392Z] GET /api/auth/validate | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:17: Headers recebidos: {
+2025-05-20T14:12:17:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:17:   host: '192.168.0.92:1120',
+2025-05-20T14:12:17:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:17: }
+2025-05-20T14:12:17: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:17: [2025-05-20T17:12:17.421Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:17: [2025-05-20T17:12:17.422Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:17: [2025-05-20T17:12:17.423Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:17: Headers recebidos: {
+2025-05-20T14:12:17:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:17:   host: '192.168.0.92:1120',
+2025-05-20T14:12:17:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:17: }
+2025-05-20T14:12:17: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:19: [2025-05-20T17:12:19.423Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:19: [2025-05-20T17:12:19.432Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:12:21: [2025-05-20T17:12:21.471Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:21: Headers recebidos: {
+2025-05-20T14:12:21:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:21:   host: '192.168.0.92:1120',
+2025-05-20T14:12:21:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:21: }
+2025-05-20T14:12:21: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:21: [2025-05-20T17:12:21.473Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:21: [2025-05-20T17:12:21.474Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:22: [2025-05-20T17:12:22.894Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:22: Headers recebidos: {
+2025-05-20T14:12:22:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:22:   host: '192.168.0.92:1120',
+2025-05-20T14:12:22:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:22: }
+2025-05-20T14:12:22: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:22: [2025-05-20T17:12:22.896Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:22: Headers recebidos: {
+2025-05-20T14:12:22:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:22:   host: '192.168.0.92:1120',
+2025-05-20T14:12:22:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:22: }
+2025-05-20T14:12:22: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:22: [2025-05-20T17:12:22.898Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:22: Headers recebidos: {
+2025-05-20T14:12:22:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:22:   host: '192.168.0.92:1120',
+2025-05-20T14:12:22:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:22: }
+2025-05-20T14:12:22: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:22: [2025-05-20T17:12:22.900Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:22: Headers recebidos: {
+2025-05-20T14:12:22:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:22:   host: '192.168.0.92:1120',
+2025-05-20T14:12:22:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:22: }
+2025-05-20T14:12:22: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:27: ⚡ Nova conexão: lbPuckMJOLJR7QdOAAAV | IP: 192.168.0.92
+2025-05-20T14:12:27: ✅ Novo usuário conectado: lbPuckMJOLJR7QdOAAAV
+2025-05-20T14:12:27: [Socket] Filtros recebidos: {}
+2025-05-20T14:12:27: [2025-05-20T17:12:27.803Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:27: Headers recebidos: {
+2025-05-20T14:12:27:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:27:   host: '192.168.0.92:1120',
+2025-05-20T14:12:27:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:27: }
+2025-05-20T14:12:27: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:27: [2025-05-20T17:12:27.805Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:27: Headers recebidos: {
+2025-05-20T14:12:27:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:27:   host: '192.168.0.92:1120',
+2025-05-20T14:12:27:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:27: }
+2025-05-20T14:12:27: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:31: ❌ Usuário desconectado: lbPuckMJOLJR7QdOAAAV
+2025-05-20T14:12:31: [2025-05-20T17:12:31.492Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:31: [2025-05-20T17:12:31.493Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:31: [2025-05-20T17:12:31.493Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:31: Headers recebidos: {
+2025-05-20T14:12:31:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:31:   host: '192.168.0.92:1120',
+2025-05-20T14:12:31:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:31: }
+2025-05-20T14:12:31: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:55: [2025-05-20T17:12:55.201Z] POST /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:55: Headers recebidos: {
+2025-05-20T14:12:55:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:55:   host: '192.168.0.92:1120',
+2025-05-20T14:12:55:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:55: }
+2025-05-20T14:12:55: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:58: [2025-05-20T17:12:58.703Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:58: Headers recebidos: {
+2025-05-20T14:12:58:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:12:58:   host: '192.168.0.92:1120',
+2025-05-20T14:12:58:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:12:58: }
+2025-05-20T14:12:58: Token para validação: eyJhbGciOi...
+2025-05-20T14:12:58: [2025-05-20T17:12:58.705Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:12:58: [2025-05-20T17:12:58.706Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:10: [2025-05-20T17:13:10.433Z] PATCH /api/viagens/682cb8172291e504665ddaff/aprovar | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:10: Headers recebidos: {
+2025-05-20T14:13:10:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:10:   host: '192.168.0.92:1120',
+2025-05-20T14:13:10:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:10: }
+2025-05-20T14:13:10: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:14: [2025-05-20T17:13:14.796Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:14: Headers recebidos: {
+2025-05-20T14:13:14:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:14:   host: '192.168.0.92:1120',
+2025-05-20T14:13:14:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:14: }
+2025-05-20T14:13:14: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:14: [2025-05-20T17:13:14.798Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:14: Headers recebidos: {
+2025-05-20T14:13:14:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:14:   host: '192.168.0.92:1120',
+2025-05-20T14:13:14:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:14: }
+2025-05-20T14:13:14: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:14: [2025-05-20T17:13:14.799Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:14: Headers recebidos: {
+2025-05-20T14:13:14:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:14:   host: '192.168.0.92:1120',
+2025-05-20T14:13:14:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:14: }
+2025-05-20T14:13:14: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:14: [2025-05-20T17:13:14.801Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:14: Headers recebidos: {
+2025-05-20T14:13:14:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:14:   host: '192.168.0.92:1120',
+2025-05-20T14:13:14:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:14: }
+2025-05-20T14:13:14: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:31: ⚡ Nova conexão: vRjmYeiIU5ucl1fBAAAX | IP: 192.168.0.92
+2025-05-20T14:13:31: ✅ Novo usuário conectado: vRjmYeiIU5ucl1fBAAAX
+2025-05-20T14:13:31: [Socket] Filtros recebidos: {}
+2025-05-20T14:13:31: [2025-05-20T17:13:31.238Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:31: Headers recebidos: {
+2025-05-20T14:13:31:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:31:   host: '192.168.0.92:1120',
+2025-05-20T14:13:31:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:31: }
+2025-05-20T14:13:31: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:31: [2025-05-20T17:13:31.239Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:31: Headers recebidos: {
+2025-05-20T14:13:31:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:31:   host: '192.168.0.92:1120',
+2025-05-20T14:13:31:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:31: }
+2025-05-20T14:13:31: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:37: ❌ Usuário desconectado: vRjmYeiIU5ucl1fBAAAX
+2025-05-20T14:13:37: [2025-05-20T17:13:37.673Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:37: Headers recebidos: {
+2025-05-20T14:13:37:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:37:   host: '192.168.0.92:1120',
+2025-05-20T14:13:37:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:37: }
+2025-05-20T14:13:37: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:37: [2025-05-20T17:13:37.674Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:37: Headers recebidos: {
+2025-05-20T14:13:37:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:37:   host: '192.168.0.92:1120',
+2025-05-20T14:13:37:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:37: }
+2025-05-20T14:13:37: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:37: [2025-05-20T17:13:37.675Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:37: Headers recebidos: {
+2025-05-20T14:13:37:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:37:   host: '192.168.0.92:1120',
+2025-05-20T14:13:37:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:37: }
+2025-05-20T14:13:37: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:37: [2025-05-20T17:13:37.677Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:37: Headers recebidos: {
+2025-05-20T14:13:37:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:37:   host: '192.168.0.92:1120',
+2025-05-20T14:13:37:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:37: }
+2025-05-20T14:13:37: Token para validação: eyJhbGciOi...
+2025-05-20T14:13:41: [2025-05-20T17:13:41.742Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:41: [2025-05-20T17:13:41.742Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:41: [2025-05-20T17:13:41.743Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:13:41: Headers recebidos: {
+2025-05-20T14:13:41:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:13:41:   host: '192.168.0.92:1120',
+2025-05-20T14:13:41:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:13:41: }
+2025-05-20T14:13:41: Token para validação: eyJhbGciOi...
+2025-05-20T14:14:41: [2025-05-20T17:14:41.792Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:15:30: [2025-05-20T17:15:30.966Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:30: Headers recebidos: {
+2025-05-20T14:15:30:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:30:   host: '192.168.0.92:1120',
+2025-05-20T14:15:30:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:30: }
+2025-05-20T14:15:30: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:30: [2025-05-20T17:15:30.969Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:30: Headers recebidos: {
+2025-05-20T14:15:30:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:30:   host: '192.168.0.92:1120',
+2025-05-20T14:15:30:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:30: }
+2025-05-20T14:15:30: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:30: [2025-05-20T17:15:30.971Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:30: Headers recebidos: {
+2025-05-20T14:15:30:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:30:   host: '192.168.0.92:1120',
+2025-05-20T14:15:30:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:30: }
+2025-05-20T14:15:30: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:30: [2025-05-20T17:15:30.973Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:30: Headers recebidos: {
+2025-05-20T14:15:30:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:30:   host: '192.168.0.92:1120',
+2025-05-20T14:15:30:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:30: }
+2025-05-20T14:15:30: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:35: [2025-05-20T17:15:35.183Z] PUT /api/viagens/682cb8172291e504665ddaff/finalizar | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:35: Headers recebidos: {
+2025-05-20T14:15:35:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:35:   host: '192.168.0.92:1120',
+2025-05-20T14:15:35:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:35: }
+2025-05-20T14:15:35: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:35: [2025-05-20T17:15:35.204Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:35: Headers recebidos: {
+2025-05-20T14:15:35:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:35:   host: '192.168.0.92:1120',
+2025-05-20T14:15:35:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:35: }
+2025-05-20T14:15:35: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:35: [2025-05-20T17:15:35.205Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:35: Headers recebidos: {
+2025-05-20T14:15:35:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:35:   host: '192.168.0.92:1120',
+2025-05-20T14:15:35:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:35: }
+2025-05-20T14:15:35: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:35: [2025-05-20T17:15:35.206Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:35: Headers recebidos: {
+2025-05-20T14:15:35:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:35:   host: '192.168.0.92:1120',
+2025-05-20T14:15:35:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:35: }
+2025-05-20T14:15:35: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:35: [2025-05-20T17:15:35.208Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:35: Headers recebidos: {
+2025-05-20T14:15:35:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:35:   host: '192.168.0.92:1120',
+2025-05-20T14:15:35:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:35: }
+2025-05-20T14:15:35: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:43: ⚡ Nova conexão: M05q_JSRJLxv3ZDgAAAZ | IP: 192.168.0.92
+2025-05-20T14:15:43: ✅ Novo usuário conectado: M05q_JSRJLxv3ZDgAAAZ
+2025-05-20T14:15:43: [Socket] Filtros recebidos: {}
+2025-05-20T14:15:43: [2025-05-20T17:15:43.206Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:43: Headers recebidos: {
+2025-05-20T14:15:43:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:43:   host: '192.168.0.92:1120',
+2025-05-20T14:15:43:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:43: }
+2025-05-20T14:15:43: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:43: [2025-05-20T17:15:43.208Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:43: Headers recebidos: {
+2025-05-20T14:15:43:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:43:   host: '192.168.0.92:1120',
+2025-05-20T14:15:43:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:43: }
+2025-05-20T14:15:43: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:47: ❌ Usuário desconectado: M05q_JSRJLxv3ZDgAAAZ
+2025-05-20T14:15:47: [2025-05-20T17:15:47.191Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:47: Headers recebidos: {
+2025-05-20T14:15:47:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:47:   host: '192.168.0.92:1120',
+2025-05-20T14:15:47:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:47: }
+2025-05-20T14:15:47: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:47: [2025-05-20T17:15:47.193Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:47: [2025-05-20T17:15:47.194Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:48: [2025-05-20T17:15:48.827Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:48: [2025-05-20T17:15:48.828Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:48: [2025-05-20T17:15:48.828Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:48: Headers recebidos: {
+2025-05-20T14:15:48:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:48:   host: '192.168.0.92:1120',
+2025-05-20T14:15:48:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:48: }
+2025-05-20T14:15:48: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:51: [2025-05-20T17:15:51.194Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:51: Headers recebidos: {
+2025-05-20T14:15:51:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:51:   host: '192.168.0.92:1120',
+2025-05-20T14:15:51:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:51: }
+2025-05-20T14:15:51: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:51: [2025-05-20T17:15:51.196Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:51: Headers recebidos: {
+2025-05-20T14:15:51:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:51:   host: '192.168.0.92:1120',
+2025-05-20T14:15:51:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:51: }
+2025-05-20T14:15:51: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:51: [2025-05-20T17:15:51.198Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:51: Headers recebidos: {
+2025-05-20T14:15:51:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:51:   host: '192.168.0.92:1120',
+2025-05-20T14:15:51:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:51: }
+2025-05-20T14:15:51: Token para validação: eyJhbGciOi...
+2025-05-20T14:15:51: [2025-05-20T17:15:51.200Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:15:51: Headers recebidos: {
+2025-05-20T14:15:51:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:15:51:   host: '192.168.0.92:1120',
+2025-05-20T14:15:51:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:15:51: }
+2025-05-20T14:15:51: Token para validação: eyJhbGciOi...
+2025-05-20T14:16:01: [2025-05-20T17:16:01.700Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:01: [2025-05-20T17:16:01.700Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:01: [2025-05-20T17:16:01.701Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:01: Headers recebidos: {
+2025-05-20T14:16:01:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:16:01:   host: '192.168.0.92:1120',
+2025-05-20T14:16:01:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:16:01: }
+2025-05-20T14:16:01: Token para validação: eyJhbGciOi...
+2025-05-20T14:16:04: [2025-05-20T17:16:04.530Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:04: Headers recebidos: {
+2025-05-20T14:16:04:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:16:04:   host: '192.168.0.92:1120',
+2025-05-20T14:16:04:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:16:04: }
+2025-05-20T14:16:04: Token para validação: eyJhbGciOi...
+2025-05-20T14:16:04: [2025-05-20T17:16:04.532Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:04: [2025-05-20T17:16:04.532Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:05: [2025-05-20T17:16:05.402Z] GET /api/motoristas/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:05: [2025-05-20T17:16:05.403Z] GET /api/veiculos/disponiveis | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:05: [2025-05-20T17:16:05.404Z] GET /api/viagens/pendentes | Origin: http://scm.sect.br:1120
+2025-05-20T14:16:05: Headers recebidos: {
+2025-05-20T14:16:05:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:16:05:   host: '192.168.0.92:1120',
+2025-05-20T14:16:05:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:16:05: }
+2025-05-20T14:16:05: Token para validação: eyJhbGciOi...
+2025-05-20T14:16:57: [2025-05-20T17:16:57.258Z] GET /videos/abstract.mp4 | Origin: undefined
+2025-05-20T14:17:01: [2025-05-20T17:17:01.757Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:01: Headers recebidos: {
+2025-05-20T14:17:01:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:01:   host: '192.168.0.92:1120',
+2025-05-20T14:17:01:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:01: }
+2025-05-20T14:17:01: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:01: [2025-05-20T17:17:01.759Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:01: Headers recebidos: {
+2025-05-20T14:17:01:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:01:   host: '192.168.0.92:1120',
+2025-05-20T14:17:01:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:01: }
+2025-05-20T14:17:01: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:01: [2025-05-20T17:17:01.761Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:01: Headers recebidos: {
+2025-05-20T14:17:01:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:01:   host: '192.168.0.92:1120',
+2025-05-20T14:17:01:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:01: }
+2025-05-20T14:17:01: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:01: [2025-05-20T17:17:01.763Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:01: Headers recebidos: {
+2025-05-20T14:17:01:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:01:   host: '192.168.0.92:1120',
+2025-05-20T14:17:01:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:01: }
+2025-05-20T14:17:01: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:21: ⚡ Nova conexão: o1Gt_qXEusMVDZavAAAb | IP: 192.168.0.92
+2025-05-20T14:17:21: ✅ Novo usuário conectado: o1Gt_qXEusMVDZavAAAb
+2025-05-20T14:17:21: [Socket] Filtros recebidos: {}
+2025-05-20T14:17:21: [2025-05-20T17:17:21.757Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:21: Headers recebidos: {
+2025-05-20T14:17:21:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:21:   host: '192.168.0.92:1120',
+2025-05-20T14:17:21:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:21: }
+2025-05-20T14:17:21: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:21: [2025-05-20T17:17:21.758Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:21: Headers recebidos: {
+2025-05-20T14:17:21:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:21:   host: '192.168.0.92:1120',
+2025-05-20T14:17:21:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:21: }
+2025-05-20T14:17:21: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:49: ❌ Usuário desconectado: o1Gt_qXEusMVDZavAAAb
+2025-05-20T14:17:49: [2025-05-20T17:17:49.715Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:49: Headers recebidos: {
+2025-05-20T14:17:49:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:49:   host: '192.168.0.92:1120',
+2025-05-20T14:17:49:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:49: }
+2025-05-20T14:17:49: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:49: [2025-05-20T17:17:49.717Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:49: Headers recebidos: {
+2025-05-20T14:17:49:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:49:   host: '192.168.0.92:1120',
+2025-05-20T14:17:49:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:49: }
+2025-05-20T14:17:49: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:49: [2025-05-20T17:17:49.718Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:49: Headers recebidos: {
+2025-05-20T14:17:49:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:49:   host: '192.168.0.92:1120',
+2025-05-20T14:17:49:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:49: }
+2025-05-20T14:17:49: Token para validação: eyJhbGciOi...
+2025-05-20T14:17:49: [2025-05-20T17:17:49.720Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:17:49: Headers recebidos: {
+2025-05-20T14:17:49:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:17:49:   host: '192.168.0.92:1120',
+2025-05-20T14:17:49:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:17:49: }
+2025-05-20T14:17:49: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:07: [2025-05-20T17:18:07.015Z] GET /status | Origin: undefined
+2025-05-20T14:18:07: ❌ Usuário desconectado: J7MJyOWw_7G6JcCwAAAR
+2025-05-20T14:18:07: ❌ Usuário desconectado: sMzGPinxCoOWSXztAAAT
+2025-05-20T14:18:07: [2025-05-20T17:18:07.037Z] GET /css/style.css | Origin: undefined
+2025-05-20T14:18:07: [2025-05-20T17:18:07.037Z] GET /css/menu.css | Origin: undefined
+2025-05-20T14:18:07: [2025-05-20T17:18:07.039Z] GET /static/css/main.8f4f4c11.css | Origin: undefined
+2025-05-20T14:18:07: [2025-05-20T17:18:07.039Z] GET /static/js/main.ad88e9df.js | Origin: undefined
+2025-05-20T14:18:07: ⚡ Nova conexão: WNLvZuw4LpwI8MawAAAe | IP: 192.168.0.92
+2025-05-20T14:18:07: ✅ Novo usuário conectado: WNLvZuw4LpwI8MawAAAe
+2025-05-20T14:18:07: [2025-05-20T17:18:07.133Z] GET /api/auth/validate | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:07: Headers recebidos: {
+2025-05-20T14:18:07:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:07:   host: '192.168.0.92:1120',
+2025-05-20T14:18:07:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:07: }
+2025-05-20T14:18:07: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:07: ⚡ Nova conexão: stHxclp5aID6J_iIAAAf | IP: 192.168.0.92
+2025-05-20T14:18:07: ✅ Novo usuário conectado: stHxclp5aID6J_iIAAAf
+2025-05-20T14:18:07: [2025-05-20T17:18:07.135Z] GET /favicon.ico | Origin: undefined
+2025-05-20T14:18:07: [Socket] Filtros recebidos: {}
+2025-05-20T14:18:07: [2025-05-20T17:18:07.144Z] GET /assets/logosistema1.png | Origin: undefined
+2025-05-20T14:18:07: [2025-05-20T17:18:07.146Z] GET /api/viagens/estatisticas | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:07: Headers recebidos: {
+2025-05-20T14:18:07:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:07:   host: '192.168.0.92:1120',
+2025-05-20T14:18:07:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:07: }
+2025-05-20T14:18:07: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:07: [2025-05-20T17:18:07.147Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:07: Headers recebidos: {
+2025-05-20T14:18:07:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:07:   host: '192.168.0.92:1120',
+2025-05-20T14:18:07:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:07: }
+2025-05-20T14:18:07: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:07: [2025-05-20T17:18:07.149Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:07: Headers recebidos: {
+2025-05-20T14:18:07:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:07:   host: '192.168.0.92:1120',
+2025-05-20T14:18:07:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:07: }
+2025-05-20T14:18:07: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:07: [2025-05-20T17:18:07.150Z] GET /api/viagens/veiculos | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:07: Headers recebidos: {
+2025-05-20T14:18:07:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:07:   host: '192.168.0.92:1120',
+2025-05-20T14:18:07:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:07: }
+2025-05-20T14:18:07: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:11: ⚡ Nova conexão: FcQDiN5wWFnunDfNAAAh | IP: 192.168.0.92
+2025-05-20T14:18:11: ✅ Novo usuário conectado: FcQDiN5wWFnunDfNAAAh
+2025-05-20T14:18:11: [Socket] Filtros recebidos: {}
+2025-05-20T14:18:11: [2025-05-20T17:18:11.155Z] GET /api/viagens/motoristas | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:11: Headers recebidos: {
+2025-05-20T14:18:11:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:11:   host: '192.168.0.92:1120',
+2025-05-20T14:18:11:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:11: }
+2025-05-20T14:18:11: Token para validação: eyJhbGciOi...
+2025-05-20T14:18:11: [2025-05-20T17:18:11.157Z] GET /api/viagens | Origin: http://scm.sect.br:1120
+2025-05-20T14:18:11: Headers recebidos: {
+2025-05-20T14:18:11:   authorization: 'Bearer eyJhbGciOiJIU...',
+2025-05-20T14:18:11:   host: '192.168.0.92:1120',
+2025-05-20T14:18:11:   origin: 'http://scm.sect.br:1120'
+2025-05-20T14:18:11: }
+2025-05-20T14:18:11: Token para validação: eyJhbGciOi...
+2025-05-20T14:19:42: ❌ Usuário desconectado: FcQDiN5wWFnunDfNAAAh
+2025-05-20T14:19:42: ❌ Usuário desconectado: stHxclp5aID6J_iIAAAf
+2025-05-20T14:19:42: ❌ Usuário desconectado: WNLvZuw4LpwI8MawAAAe
